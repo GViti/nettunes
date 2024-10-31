@@ -2,8 +2,8 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import "./globals.css";
-import Header from "./components/organisms/header/Header.tsx";
-import Footer from "./components/organisms/footer/Footer.tsx";
+import Header from "./components/organisms/header/Header";
+import Footer from "./components/organisms/footer/Footer";
 import CardList from "./components/organisms/cardList/CardList";
 
 // const geistSans = localFont({
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  // children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
