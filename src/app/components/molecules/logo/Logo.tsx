@@ -9,7 +9,7 @@ interface LogoProps {
 const Logo : React.FC<LogoProps> = ({ image, alt }) => {
     return (
         <div className="w-[64px]">
-            <Image src={image} alt={alt} className="w-full object-cover"/>
+            <Image src={image} alt={alt} layout="responsive"  width={40} height={40} className="w-full object-cover"/>
         </div>
     )
 }

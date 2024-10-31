@@ -7,10 +7,10 @@ const Footer: React.FC = () => {
     return (
         <footer className="px-4 pt-11">
             <div className="flex gap-5 pb-11">
-                <LogoSocial image={Socials.ig}/>
-                <LogoSocial image={Socials.fb}/>
-                <LogoSocial image={Socials.yt}/>
-                <LogoSocial image={Socials.xt}/>
+                <LogoSocial image={Socials.ig} alt="placeholder"/>
+                <LogoSocial image={Socials.fb} alt="placeholder"/>
+                <LogoSocial image={Socials.yt} alt="placeholder"/>
+                <LogoSocial image={Socials.xt} alt="placeholder"/>
             </div>
             <div className="flex">
                 <div className="w-1/2">

@@ -3,13 +3,13 @@ import Image from "next/image";
 
 interface LogoSocial {
     image: string;
-    // alt: string; 
+    alt: string; 
 }
 
-const LogoSocial : React.FC<LogoSocial> = ({ image }) => {
+const LogoSocial : React.FC<LogoSocial> = ({ image, alt }) => {
     return (
         <div className="w-[49px] h-[49px]">
-            <Image src={image} className="w-full object-cover"/>
+            <Image src={image} alt={alt} className="w-full object-cover"/>
         </div>
     )
 }
