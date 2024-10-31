@@ -2,7 +2,7 @@
 import React from "react";
 import Logo from "../../molecules/logo/Logo.tsx";
 import HamMenu from "../../molecules/hamburgerMenu/HamMenu.tsx";
-import images from "@/app/assets/images/images.ts";
+import images from "../../../assets/images/images.ts";
 
 const Header: React.FC = () => {
     return (

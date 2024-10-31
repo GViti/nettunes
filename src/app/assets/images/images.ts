@@ -1,9 +1,11 @@
 // src/assets/images/images.ts
+import logo from "../images/Apple_Computer_Logo.png";
+import hambMenu from "../images/hambMenu.svg";
+
 const images = {
-    logo: require("./Apple_Computer_Logo.png"),
-    hambMenu: require("./hambMenu.svg"),
-    // Aggiungi qui altre immagini, se necessario
-  };
-  
-  export default images;
-  
+    logo,
+    hambMenu,
+};
+
+// Esporta l'oggetto con un nome esplicito
+export default images;
