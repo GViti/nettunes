@@ -1,0 +1,32 @@
+{
+    "title_cat" : [
+        {
+            "ind_cat": 1,
+            "name_cat": "Africa"
+        },
+        {
+            "ind_cat": 2,
+            "name_cat": "Asia"
+        },
+        {
+            "ind_cat": 3,
+            "name_cat": "Europa"
+        },
+        {
+            "ind_cat": 4,
+            "name_cat": "Nord America"
+        },
+        {
+            "ind_cat": 5,
+            "name_cat": "Sud America"
+        },
+        {
+            "ind_cat": 6,
+            "name_cat": "Oceania"
+        },
+        {
+            "ind_cat": 7,
+            "name_cat": "Antartide"
+        }
+    ]
+}

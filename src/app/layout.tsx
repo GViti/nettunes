@@ -5,6 +5,8 @@ import "./globals.css";
 import Header from "./components/organisms/header/Header";
 import Footer from "./components/organisms/footer/Footer";
 import CardList from "./components/organisms/cardList/CardList";
+import Categories from "./assets/data/categories.json";
+
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -33,13 +35,9 @@ export default function RootLayout({
         <Header/>
         <main className="mt-[95px]">
           <div className="flex flex-col gap-5">
-            <CardList title="Models"/>  
-            <CardList title="Athletes"/>  
-            <CardList title="Singer & musicians"/>  
-            <CardList title="Actor"/>  
-            <CardList title="Photographer"/>
-            <CardList title="Video maker"/>
-            <CardList title="Travel blogger"/>
+          {Categories.title_cat.map((category) => (
+            <CardList key={category.ind_cat} title={category.name_cat}/>
+          ))}
           </div>
         </main> 
         <Footer/>

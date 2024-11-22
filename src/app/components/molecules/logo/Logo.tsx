@@ -8,8 +8,8 @@ interface LogoProps {
 
 const Logo : React.FC<LogoProps> = ({ image, alt }) => {
     return (
-        <div className="w-[64px]">
-            <Image src={image} alt={alt} layout="responsive"  width={40} height={40} className="w-full object-cover"/>
+        <div className="w-[110px] content-center">
+            <Image src={image} alt={alt} layout="responsive"  width={140} height={60} className="w-full object-cover"/>
         </div>
     )
 }

@@ -1,0 +1,634 @@
+{
+    "paesi": [
+      {
+        "num": 1,
+        "nome": "Italia",
+        "capitale": "Roma",
+        "abitanti": 59000000,
+        "lingua": "Italiano",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 2,
+        "nome": "Giappone",
+        "capitale": "Tokyo",
+        "abitanti": 126000000,
+        "lingua": "Giapponese",
+        "moneta": "Yen",
+        "continente": "Asia"
+      },
+      {
+        "num": 3,
+        "nome": "Brasile",
+        "capitale": "Brasilia",
+        "abitanti": 213000000,
+        "lingua": "Portoghese",
+        "moneta": "Real",
+        "continente": "Sud America"
+      },
+      {
+        "num": 4,
+        "nome": "Canada",
+        "capitale": "Ottawa",
+        "abitanti": 38000000,
+        "lingua": "Inglese, Francese",
+        "moneta": "Dollaro canadese",
+        "continente": "Nord America"
+      },
+      {
+        "num": 5,
+        "nome": "Australia",
+        "capitale": "Canberra",
+        "abitanti": 26000000,
+        "lingua": "Inglese",
+        "moneta": "Dollaro australiano",
+        "continente": "Oceania"
+      },
+      {
+        "num": 6,
+        "nome": "Francia",
+        "capitale": "Parigi",
+        "abitanti": 68000000,
+        "lingua": "Francese",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 7,
+        "nome": "Germania",
+        "capitale": "Berlino",
+        "abitanti": 83000000,
+        "lingua": "Tedesco",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 8,
+        "nome": "Cina",
+        "capitale": "Pechino",
+        "abitanti": 1402000000,
+        "lingua": "Cinese mandarino",
+        "moneta": "Yuan Renminbi",
+        "continente": "Asia"
+      },
+      {
+        "num": 9,
+        "nome": "India",
+        "capitale": "Nuova Delhi",
+        "abitanti": 1393000000,
+        "lingua": "Hindi, Inglese",
+        "moneta": "Rupia indiana",
+        "continente": "Asia"
+      },
+      {
+        "num": 10,
+        "nome": "Stati Uniti",
+        "capitale": "Washington D.C.",
+        "abitanti": 331000000,
+        "lingua": "Inglese",
+        "moneta": "Dollaro statunitense",
+        "continente": "Nord America"
+      },
+      {
+        "num": 11,
+        "nome": "Messico",
+        "capitale": "Città del Messico",
+        "abitanti": 126000000,
+        "lingua": "Spagnolo",
+        "moneta": "Peso messicano",
+        "continente": "Nord America"
+      },
+      {
+        "num": 12,
+        "nome": "Russia",
+        "capitale": "Mosca",
+        "abitanti": 146000000,
+        "lingua": "Russo",
+        "moneta": "Rublo",
+        "continente": "Europa/Asia"
+      },
+      {
+        "num": 13,
+        "nome": "Egitto",
+        "capitale": "Il Cairo",
+        "abitanti": 104000000,
+        "lingua": "Arabo",
+        "moneta": "Sterlina egiziana",
+        "continente": "Africa"
+      },
+      {
+        "num": 14,
+        "nome": "Sudafrica",
+        "capitale": "Pretoria, Bloemfontein, Città del Capo",
+        "abitanti": 60000000,
+        "lingua": "Inglese, Afrikaans, Zulu e altre",
+        "moneta": "Rand",
+        "continente": "Africa"
+      },
+      {
+        "num": 15,
+        "nome": "Argentina",
+        "capitale": "Buenos Aires",
+        "abitanti": 45000000,
+        "lingua": "Spagnolo",
+        "moneta": "Peso argentino",
+        "continente": "Sud America"
+      },
+      {
+        "num": 16,
+        "nome": "Regno Unito",
+        "capitale": "Londra",
+        "abitanti": 67000000,
+        "lingua": "Inglese",
+        "moneta": "Sterlina britannica",
+        "continente": "Europa"
+      },
+      {
+        "num": 17,
+        "nome": "Spagna",
+        "capitale": "Madrid",
+        "abitanti": 47000000,
+        "lingua": "Spagnolo",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 18,
+        "nome": "Portogallo",
+        "capitale": "Lisbona",
+        "abitanti": 10300000,
+        "lingua": "Portoghese",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 19,
+        "nome": "Turchia",
+        "capitale": "Ankara",
+        "abitanti": 85000000,
+        "lingua": "Turco",
+        "moneta": "Lira turca",
+        "continente": "Asia/Europa"
+      },
+      {
+        "num": 20,
+        "nome": "Arabia Saudita",
+        "capitale": "Riyad",
+        "abitanti": 35000000,
+        "lingua": "Arabo",
+        "moneta": "Riyal saudita",
+        "continente": "Asia"
+      },
+      {
+        "num": 21,
+        "nome": "Indonesia",
+        "capitale": "Jakarta",
+        "abitanti": 276000000,
+        "lingua": "Indonesiano",
+        "moneta": "Rupia indonesiana",
+        "continente": "Asia"
+      },
+      {
+        "num": 22,
+        "nome": "Nigeria",
+        "capitale": "Abuja",
+        "abitanti": 223000000,
+        "lingua": "Inglese",
+        "moneta": "Naira",
+        "continente": "Africa"
+      },
+      {
+        "num": 23,
+        "nome": "Kenya",
+        "capitale": "Nairobi",
+        "abitanti": 56000000,
+        "lingua": "Inglese, Swahili",
+        "moneta": "Scellino kenyota",
+        "continente": "Africa"
+      },
+      {
+        "num": 24,
+        "nome": "Vietnam",
+        "capitale": "Hanoi",
+        "abitanti": 98000000,
+        "lingua": "Vietnamita",
+        "moneta": "Dong",
+        "continente": "Asia"
+      },
+      {
+        "num": 25,
+        "nome": "Thailandia",
+        "capitale": "Bangkok",
+        "abitanti": 70000000,
+        "lingua": "Thai",
+        "moneta": "Baht",
+        "continente": "Asia"
+      },
+      {
+        "num": 26,
+        "nome": "Svezia",
+        "capitale": "Stoccolma",
+        "abitanti": 10300000,
+        "lingua": "Svedese",
+        "moneta": "Corona svedese",
+        "continente": "Europa"
+      },
+      {
+        "num": 27,
+        "nome": "Norvegia",
+        "capitale": "Oslo",
+        "abitanti": 5500000,
+        "lingua": "Norvegese",
+        "moneta": "Corona norvegese",
+        "continente": "Europa"
+      },
+      {
+        "num": 28,
+        "nome": "Svizzera",
+        "capitale": "Berna",
+        "abitanti": 8700000,
+        "lingua": "Tedesco, Francese, Italiano, Romanico",
+        "moneta": "Franco svizzero",
+        "continente": "Europa"
+      },
+      {
+        "num": 29,
+        "nome": "Corea del Sud",
+        "capitale": "Seul",
+        "abitanti": 52000000,
+        "lingua": "Coreano",
+        "moneta": "Won sudcoreano",
+        "continente": "Asia"
+      },
+      {
+        "num": 30,
+        "nome": "Nuova Zelanda",
+        "capitale": "Wellington",
+        "abitanti": 5100000,
+        "lingua": "Inglese, Maori",
+        "moneta": "Dollaro neozelandese",
+        "continente": "Oceania"
+      },
+      {
+        "num": 31,
+        "nome": "Polonia",
+        "capitale": "Varsavia",
+        "abitanti": 38000000,
+        "lingua": "Polacco",
+        "moneta": "Zloty",
+        "continente": "Europa"
+      },
+      {
+        "num": 32,
+        "nome": "Austria",
+        "capitale": "Vienna",
+        "abitanti": 8900000,
+        "lingua": "Tedesco",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 33,
+        "nome": "Grecia",
+        "capitale": "Atene",
+        "abitanti": 10400000,
+        "lingua": "Greco",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 34,
+        "nome": "Belgio",
+        "capitale": "Bruxelles",
+        "abitanti": 11500000,
+        "lingua": "Olandese, Francese, Tedesco",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 35,
+        "nome": "Paesi Bassi",
+        "capitale": "Amsterdam",
+        "abitanti": 17500000,
+        "lingua": "Olandese",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 36,
+        "nome": "Cuba",
+        "capitale": "L'Avana",
+        "abitanti": 11300000,
+        "lingua": "Spagnolo",
+        "moneta": "Peso cubano",
+        "continente": "Sud America"
+      },
+      {
+        "num": 37,
+        "nome": "Cile",
+        "capitale": "Santiago",
+        "abitanti": 19000000,
+        "lingua": "Spagnolo",
+        "moneta": "Peso cileno",
+        "continente": "Sud America"
+      },
+      {
+        "num": 38,
+        "nome": "Perù",
+        "capitale": "Lima",
+        "abitanti": 34000000,
+        "lingua": "Spagnolo",
+        "moneta": "Sol",
+        "continente": "Sud America"
+      },
+      {
+        "num": 39,
+        "nome": "Colombia",
+        "capitale": "Bogotà",
+        "abitanti": 52000000,
+        "lingua": "Spagnolo",
+        "moneta": "Peso colombiano",
+        "continente": "Sud America"
+      },
+      {
+        "num": 40,
+        "nome": "Algeria",
+        "capitale": "Algeri",
+        "abitanti": 45000000,
+        "lingua": "Arabo, Tamazight",
+        "moneta": "Dinaro algerino",
+        "continente": "Africa"
+      },
+      {
+        "num": 41,
+        "nome": "Marocco",
+        "capitale": "Rabat",
+        "abitanti": 37000000,
+        "lingua": "Arabo, Tamazight",
+        "moneta": "Dirham",
+        "continente": "Africa"
+      },
+      {
+        "num": 42,
+        "nome": "Sudan",
+        "capitale": "Khartum",
+        "abitanti": 46000000,
+        "lingua": "Arabo, Inglese",
+        "moneta": "Sterlina sudanese",
+        "continente": "Africa"
+      },
+      {
+        "num": 43,
+        "nome": "Etiopia",
+        "capitale": "Addis Abeba",
+        "abitanti": 122000000,
+        "lingua": "Amarico",
+        "moneta": "Birr",
+        "continente": "Africa"
+      },
+      {
+        "num": 44,
+        "nome": "Filippine",
+        "capitale": "Manila",
+        "abitanti": 113000000,
+        "lingua": "Filippino, Inglese",
+        "moneta": "Peso filippino",
+        "continente": "Asia"
+      },
+      {
+        "num": 45,
+        "nome": "Malaysia",
+        "capitale": "Kuala Lumpur",
+        "abitanti": 33000000,
+        "lingua": "Malese",
+        "moneta": "Ringgit",
+        "continente": "Asia"
+      },
+      {
+        "num": 46,
+        "nome": "Bangladesh",
+        "capitale": "Dacca",
+        "abitanti": 171000000,
+        "lingua": "Bengalese",
+        "moneta": "Taka",
+        "continente": "Asia"
+      },
+      {
+        "num": 47,
+        "nome": "Pakistan",
+        "capitale": "Islamabad",
+        "abitanti": 240000000,
+        "lingua": "Urdu, Inglese",
+        "moneta": "Rupia pakistana",
+        "continente": "Asia"
+      },
+      {
+        "num": 48,
+        "nome": "Corea del Nord",
+        "capitale": "Pyongyang",
+        "abitanti": 26000000,
+        "lingua": "Coreano",
+        "moneta": "Won nordcoreano",
+        "continente": "Asia"
+      },
+      {
+        "num": 49,
+        "nome": "Irlanda",
+        "capitale": "Dublino",
+        "abitanti": 5000000,
+        "lingua": "Inglese, Irlandese",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 50,
+        "nome": "Israele",
+        "capitale": "Gerusalemme",
+        "abitanti": 9400000,
+        "lingua": "Ebraico, Arabo",
+        "moneta": "Nuovo shekel",
+        "continente": "Asia"
+      },
+      {
+        "num": 51,
+        "nome": "Vietnam",
+        "capitale": "Hanoi",
+        "abitanti": 98000000,
+        "lingua": "Vietnamita",
+        "moneta": "Dong",
+        "continente": "Asia"
+      },
+      {
+        "num": 52,
+        "nome": "Finlandia",
+        "capitale": "Helsinki",
+        "abitanti": 5500000,
+        "lingua": "Finlandese, Svedese",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 53,
+        "nome": "Repubblica Ceca",
+        "capitale": "Praga",
+        "abitanti": 10600000,
+        "lingua": "Ceco",
+        "moneta": "Corona ceca",
+        "continente": "Europa"
+      },
+      {
+        "num": 54,
+        "nome": "Slovacchia",
+        "capitale": "Bratislava",
+        "abitanti": 5400000,
+        "lingua": "Slovacco",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 55,
+        "nome": "Slovenia",
+        "capitale": "Lubiana",
+        "abitanti": 2100000,
+        "lingua": "Sloveno",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 56,
+        "nome": "Croazia",
+        "capitale": "Zagabria",
+        "abitanti": 4100000,
+        "lingua": "Croato",
+        "moneta": "Kuna",
+        "continente": "Europa"
+      },
+      {
+        "num": 57,
+        "nome": "Estonia",
+        "capitale": "Tallinn",
+        "abitanti": 1300000,
+        "lingua": "Estone",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 58,
+        "nome": "Lettonia",
+        "capitale": "Riga",
+        "abitanti": 1900000,
+        "lingua": "Lettone",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 59,
+        "nome": "Mongolia",
+        "capitale": "Ulaanbaatar",
+        "abitanti": 3300000,
+        "lingua": "Mongolo",
+        "moneta": "Tugrik",
+        "continente": "Asia"
+      },
+      {
+        "num": 60,
+        "nome": "Lituania",
+        "capitale": "Vilnius",
+        "abitanti": 2800000,
+        "lingua": "Lituano",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 61,
+        "nome": "Islanda",
+        "capitale": "Reykjavík",
+        "abitanti": 370000,
+        "lingua": "Islandese",
+        "moneta": "Corona islandese",
+        "continente": "Europa"
+      },
+      {
+        "num": 62,
+        "nome": "Malta",
+        "capitale": "La Valletta",
+        "abitanti": 500000,
+        "lingua": "Maltese, Inglese",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 63,
+        "nome": "Bulgaria",
+        "capitale": "Sofia",
+        "abitanti": 7000000,
+        "lingua": "Bulgaro",
+        "moneta": "Lev bulgaro",
+        "continente": "Europa"
+      },
+      {
+        "num": 64,
+        "nome": "Albania",
+        "capitale": "Tirana",
+        "abitanti": 3000000,
+        "lingua": "Albanese",
+        "moneta": "Lek",
+        "continente": "Europa"
+      },
+      {
+        "num": 65,
+        "nome": "Kosovo",
+        "capitale": "Pristina",
+        "abitanti": 1800000,
+        "lingua": "Albanese, Serbo",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 66,
+        "nome": "Serbia",
+        "capitale": "Belgrado",
+        "abitanti": 7000000,
+        "lingua": "Serbo",
+        "moneta": "Dinaro serbo",
+        "continente": "Europa"
+      },
+      {
+        "num": 67,
+        "nome": "Montenegro",
+        "capitale": "Podgorica",
+        "abitanti": 620000,
+        "lingua": "Montenegrino",
+        "moneta": "Euro",
+        "continente": "Europa"
+      },
+      {
+        "num": 68,
+        "nome": "Macedonia del Nord",
+        "capitale": "Skopje",
+        "abitanti": 2100000,
+        "lingua": "Macedone",
+        "moneta": "Denaro macedone",
+        "continente": "Europa"
+      },
+      {
+        "num": 69,
+        "nome": "Figi",
+        "capitale": "Suva",
+        "abitanti": 900000,
+        "lingua": "Inglese, Fijiano, Hindustani",
+        "moneta": "Dollaro delle Figi",
+        "continente": "Oceania"
+      },
+      {
+        "num": 70,
+        "nome": "Papua Nuova Guinea",
+        "capitale": "Port Moresby",
+        "abitanti": 9000000,
+        "lingua": "Inglese, Tok Pisin, Hiri Motu",
+        "moneta": "Kina",
+        "continente": "Oceania"
+      }
+    ]
+  }
