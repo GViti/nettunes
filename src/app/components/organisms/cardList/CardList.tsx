@@ -4,13 +4,21 @@ import React, {useState, useEffect} from "react";
 import Card from "../../molecules/card/Card";
 // import Countries from "../../../assets/data/countries.json";
 
-
+interface Country {
+    name: { common: string };
+    capital?: string[];
+    population: number;
+    area: number;
+    flags: { png: string; svg: string };
+    cca3: string;
+  }
+  
 
 const CardList: React.FC = () => {
 
     const regions = ["africa", "americas", "antarctic", "asia", "europe", "oceania"];
 
-    const [regionData, setRegionData] = useState<{ [key: string]: any[] }>({});
+    const [regionData, setRegionData] = useState<{ [key: string]: Country[] }>({});
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
@@ -48,7 +56,7 @@ const CardList: React.FC = () => {
         };
 
         fetchData();
-    }, []);
+    }, [regions]);
 
     if (loading) {
         return <div>Caricamento dei dati in corso...</div>;

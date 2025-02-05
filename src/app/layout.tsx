@@ -5,7 +5,6 @@ import "./globals.css";
 import Header from "./components/organisms/header/Header";
 import Footer from "./components/organisms/footer/Footer";
 import CardList from "./components/organisms/cardList/CardList";
-import Categories from "./assets/data/categories.json";
 
 
 // const geistSans = localFont({
