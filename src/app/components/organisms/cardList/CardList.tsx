@@ -9,14 +9,13 @@ interface Country {
     capital?: string[];
     population: number;
     area: number;
-    flags: { png: string; svg: string };
+    flags: { png: string; svg: string; alt?: string };
     cca3: string;
-  }
-  
+}
 
 const CardList: React.FC = () => {
 
-    const regions = ["africa", "americas", "antarctic", "asia", "europe", "oceania"];
+    const regions = React.useMemo(() => ["africa", "americas", "antarctic", "asia", "europe", "oceania"], []);
 
     const [regionData, setRegionData] = useState<{ [key: string]: Country[] }>({});
     const [loading, setLoading] = useState(true);
@@ -42,7 +41,7 @@ const CardList: React.FC = () => {
                 const data = await Promise.all(response.map((response) => response.json()));
 
                 // Memorizzare i dati in uno stato strutturato
-                const regionDataMap: { [key: string]: any[] } = {};
+                const regionDataMap: { [key: string]: Country[] } = {};
                 regions.forEach((region, index) => {
                     regionDataMap[region] = data[index];
                 });
@@ -52,7 +51,7 @@ const CardList: React.FC = () => {
                 if (error instanceof Error) {
                     setError(error.message); 
                 } else {
-                    setError("Errore sconosciuto");
+                    setError("Unknown error");
                 }
             } finally {
                 setLoading(false);
@@ -85,7 +84,7 @@ const CardList: React.FC = () => {
                                 key={country.cca3}
                                 title={country.name.common}
                                 image={country.flags.svg}
-                                alt={country.flags.alt}
+                                alt={country.flags.alt || `Flag of ${country.name.common}`}
                             />
                         ))}
                     </div>
