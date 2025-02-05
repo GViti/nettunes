@@ -48,8 +48,12 @@ const CardList: React.FC = () => {
                 });
 
                 setRegionData(regionDataMap);
-            } catch (error) {
-                setError(error.message);
+            } catch (error: unknown) {
+                if (error instanceof Error) {
+                    setError(error.message); 
+                } else {
+                    setError("Errore sconosciuto");
+                }
             } finally {
                 setLoading(false);
             }
