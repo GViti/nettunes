@@ -35,9 +35,7 @@ export default function RootLayout({
         <Header/>
         <main className="mt-[95px]">
           <div className="flex flex-col gap-5">
-          {Categories.title_cat.map((category) => (
-            <CardList key={category.ind_cat} title={category.name_cat}/>
-          ))}
+            <CardList/>
           </div>
         </main> 
         <Footer/>
