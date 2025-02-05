@@ -62,7 +62,7 @@ const CardList: React.FC = () => {
     }, [regions]);
 
     if (loading) {
-        return <div>Caricamento dei dati in corso...</div>;
+        return <div>Caricamento dei dati in corso..</div>;
     }
 
     if (error) {
