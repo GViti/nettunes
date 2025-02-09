@@ -24,3 +24,7 @@ body {
   display: none;
 }
 
+/* .mask-card-list{
+  -webkit-mask-image: linear-gradient(to right, #03192B, #03192B 2%, #03192B 98%, #03192B);
+  mask-image: linear-gradient(to right, #03192B, #03192B 2%, #03192B 98%, #03192B);
+} */

@@ -2,20 +2,22 @@
 
 import React, {useState, useEffect} from "react";
 import Card from "../../molecules/card/Card";
+import CategoryLabel from "../../molecules/categoryLabel/CategoryLabel";
+import CardScroller from "../../molecules/cardScroller/CardScroller";
 // import Countries from "../../../assets/data/countries.json";
 
 interface Country {
     name: { common: string };
-    capital?: string[];
-    population: number;
-    area: number;
+    // capital?: string[];
+    // population: number;
+    // area: number;
     flags: { png: string; svg: string; alt?: string };
     cca3: string;
 }
 
 const CardList: React.FC = () => {
 
-    const regions = React.useMemo(() => ["africa", "americas", "antarctic", "asia", "europe", "oceania"], []);
+    const regions = React.useMemo(() => ["africa", "americas", "asia", "europe", "oceania", "antarctic"], []);
 
     const [regionData, setRegionData] = useState<{ [key: string]: Country[] }>({});
     const [loading, setLoading] = useState(true);
@@ -71,15 +73,15 @@ const CardList: React.FC = () => {
 
     return (
 
-        <div>
+        <div className="px-4 md:px-6">
             {regions.map((region) => (
-                <div key={region} className="mb-10 mx-6">
-                    <div className="flex items-baseline gap-7">
-                        <h2 className="text-2xl capitalize mb-8">{region}</h2>
-                        <a href="#"><p className="text-xl text-[#089F95]">See all +</p></a>
-                    </div>
-                    <div className="flex gap-6 overflow-x-auto whitespace-nowrap cursor-grab active:cursor-grabbing">
-                        {regionData[region]?.map((country) => (
+                <div key={region} className="mb-10">
+                    <CategoryLabel
+                        categoryName={region}
+                        link={region}
+                    />
+                    <CardScroller>
+                        {regionData[region]?.slice(0, 15).map((country) => (
                             <Card 
                                 key={country.cca3}
                                 title={country.name.common}
@@ -87,7 +89,7 @@ const CardList: React.FC = () => {
                                 alt={country.flags.alt || `Flag of ${country.name.common}`}
                             />
                         ))}
-                    </div>
+                    </CardScroller>
             </div>
             ))}
         </div>

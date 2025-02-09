@@ -6,7 +6,7 @@ import HamMenu from "../../molecules/hamburgerMenu/HamMenu";
 
 const Header: React.FC = () => {
     return (
-        <header id="header" className="fixed top-0 w-full flex justify-between align-center py-3 px-6 bg-[#03192B]/75">
+        <header id="header" className="stiky top-0 w-full flex justify-between align-center py-3 px-6 bg-[#03192B]/75 backdrop-blur-md">
             <Logo image="/nettunes_logo.svg" alt="logo" /> 
             <HamMenu image="/hambMenu.svg" alt="menu" /> 
         </header>
